@@ -14,6 +14,16 @@ const mainNavItems: NavItem[] = [
         href: '/dashboard',
         icon: LayoutGrid,
     },
+        {
+        title: 'Teams',
+        href: '/teams',
+        icon: LayoutGrid,
+    },
+    {
+        title: 'Players',
+        href: '/players',
+        icon: LayoutGrid,
+    }
 ];
 
 const footerNavItems: NavItem[] = [

@@ -17,5 +17,14 @@ Route::get('/teams', function () {
 })->name('teams.index');
 
 
+Route::get('/players', function () {
+    return Inertia::render('Players/Index');
+})->name('players.index');
+
+
+Route::get('/draft', function () {
+    return Inertia::render('Draft/Index');
+})->name('draft.index');
+
 require __DIR__.'/settings.php';
 require __DIR__.'/auth.php';
